@@ -18,10 +18,7 @@ const params = {
   }
 };
 const images = [
-  '/images/home-1.jpg',
-  '/images/home-2.jpg',
-  '/images/home-3.jpg',
-  '/images/home-4.jpg',
+  '/images/display.jpg'
 ];
 
 export default class HeroSection extends Component {
@@ -38,11 +35,11 @@ export default class HeroSection extends Component {
                 }}
               >
                 <p className="font-size-display5 font-family-secondary mb-4 text-center hero-header">
-                  Jessie Guo Collection
+                  Check this Shit
                 </p>
-                <p className="text-transform-uppercase font-size-title mb-5 hero-subheader">
+                {/* <p className="text-transform-uppercase font-size-title mb-5 hero-subheader">
                   A range of products for you
-                </p>
+                </p> */}
                 <Link href="/collection">
                   <a className="d-flex align-items-center bg-transparent border border-color-white h-56 px-5 font-color-white hero-btn">
                     Shop now
