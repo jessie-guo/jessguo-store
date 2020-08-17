@@ -11,7 +11,7 @@ const About = () => (
       <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/sunflower-jessie.jpg" alt="Sunflower Jessie" width="470" height="700"/>
+              <img src="/about-jessie.jpg" alt="About Jessie" width="470" height="680"/>
             </div>
           </div>
         </div>
