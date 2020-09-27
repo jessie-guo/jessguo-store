@@ -10,7 +10,7 @@ class MyApp extends App {
     // Fetch data on load
     // Fetch categories
     const categoriesResponse = await commerce.categories.list();
-
+    console.log('Categories Response: ' + categoriesResponse);
     // Match static data record to API data to find category name
     const categories = categoriesResponse.data.map(item => ({
       ...collections.find(data => data.slug === item.slug),
