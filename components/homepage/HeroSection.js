@@ -18,7 +18,9 @@ const params = {
   }
 };
 const images = [
-  '/images/display.jpg'
+  '/images/display.jpg',
+  '/images/face_header.jpg',
+  '/images/plant_header.jpg'
 ];
 
 export default class HeroSection extends Component {
@@ -35,7 +37,7 @@ export default class HeroSection extends Component {
                 }}
               >
                 <p className="font-size-display5 font-family-secondary mb-4 text-center hero-header">
-                  Check this Shit
+                  Welcome to my Collection
                 </p>
                 {/* <p className="text-transform-uppercase font-size-title mb-5 hero-subheader">
                   A range of products for you
