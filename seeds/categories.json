@@ -4,7 +4,15 @@
     "name": "Graphic Portraits"
   },
   {
-    "slug": "line-drawings",
-    "name": "Line Drawings"
+    "slug": "line-art",
+    "name": "Line Art"
+  },
+  {
+    "slug": "drawings",
+    "name": "Drawings"
+  },
+  {
+    "slug": "paintings",
+    "name": "Paintings"
   }
 ]
