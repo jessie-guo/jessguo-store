@@ -22,14 +22,11 @@ const About = () => (
                 About Me
               </h2>
               <h4 className="font-size-subheader mb-4">
-                This is an open source storefront built using Chec’s headless architecture and the Commerce.js SDK. Commerce.js is a smarter, more efficient way to build eCommerce projects, and we hope you can see that as you explore the world custom eCommerce. Please build on top of, or pick apart this project for your own use. Everything in this project, from the storefront, to the cart, checkout and receipt, is 100% customizable. To build more custom eCommerce projects, using any frontend framework or platform, head over to <a href="https://commercejs.com/" target="_blank" className="cjs-link" rel="noopener noreferrer">commercejs.com</a>.
+              Hello! Welcome to my eCommerce site for my artwork. I am a software engineering student and aspiring web designer/UX designer and part time artist. My store here is built with a REACT js front end, Chec’s headless architecture and the Commerce.js SDK. I thought this site would be a great way for me to practice my web development skills while being able to display and spread my artwork for friends, family, and community members. I hope to soon have prints available for purchase in my designs as well as options for commission requests! Check back to this page often for updates and be sure to follow my Instagram below as well!
               </h4>
               <div className="about-cjs mt-3 d-flex flex-row">
-                <a className="px-4 py-3 font-color-white about-doc" href="https://commercejs.com/docs/api/" target="_blank">
-                  Documentation
-                </a>
-                <a className="px-4 py-3 about-dev" href="https://commercejs.com/resources" target="_blank">
-                  Developer resources
+                <a className="px-4 py-3 font-color-white about-doc" href="https://www.instagram.com/jessieguoart/" target="_blank">
+                  Follow my Instagram!
                 </a>
               </div>
             </div>
