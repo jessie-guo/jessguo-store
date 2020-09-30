@@ -2,23 +2,15 @@ import React from 'react';
 
 const imagesInfo = [
   {
-    image: '/images/insta/1.png',
+    image: '/images/insta/ellie_line.jpg',
     translateRatio: -50
   },
   {
-    image: '/images/insta/2.jpg',
-    translateRatio: 30
-  },
-  {
-    image: '/images/insta/3.jpg',
+    image: '/images/insta/charcoal_girls.jpg',
     translateRatio: 0
   },
   {
-    image: '/images/insta/4.jpg',
-    translateRatio: -20
-  },
-  {
-    image: '/images/insta/5.jpg',
+    image: '/images/insta/line_drawings.jpg',
     translateRatio: -80
   }
 ];
@@ -78,14 +70,14 @@ export default class SocialMedia extends React.Component {
                 className="font-size-display1 mb-3"
                 style={{ maxWidth: '26rem' }}
               >
-                Follow us on Instagram for more updates
+                Follow me on Instagram for more updates
               </p>
               <div className="d-flex">
                 <a
-                  href="/about"
+                  href="https://www.instagram.com/jessieguoart/"
                   className="d-flex py-3 align-items-center font-color-black borderbottom border-color-black"
                 >
-                  <p className="mr-3">Follow us</p>
+                  <p className="mr-3">Follow me</p>
                   <img src="/icon/arrow-long-right.svg" alt="Arrow icon"/>
                 </a>
               </div>
